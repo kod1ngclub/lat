@@ -1,0 +1,47 @@
+@import "../config.scss";
+
+@mixin flex-default($direction, $justify) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: center;
+    gap: $spacing;
+}
+
+
+.flex {
+    @include flex-default(
+        $direction: row,
+        $justify: space-between
+    );
+}
+
+.flex--r-st { // row and start
+    @include flex-default(
+        $direction: row,
+        $justify: start
+    );
+}
+
+.flex--r-sb { // row and space-between
+    @include flex-default(
+        $direction: row,
+        $justify: space-between
+    );
+}
+
+
+.flex--c-st { // column and start
+    @include flex-default(
+        $direction: column,
+        $justify: start
+    );
+}
+
+.flex--c-sb { // column and space-between
+    @include flex-default(
+        $direction: column,
+        $justify: space-between
+    );
+}
+
