@@ -8,9 +8,21 @@
 - only 'shadow' color
 - lightweight
 
-## CDN
+## Getting Started
 
-...
+```bash
+# install package
+npm install -g sass
+
+# clone git
+git clone https://github.com/kod1ngclub/lat.git
+cd lat
+
+# build
+sass --style=compressed index.scss build.min.css
+
+echo "⛏️ build.min.css"
+```
 
 ## How to use
 
