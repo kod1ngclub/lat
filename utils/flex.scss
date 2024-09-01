@@ -30,6 +30,12 @@
     );
 }
 
+.flex--r-c { // row and space-between
+    @include flex-default(
+        $direction: row,
+        $justify: center
+    );
+}
 
 .flex--c-st { // column and start
     @include flex-default(
@@ -45,3 +51,9 @@
     );
 }
 
+.flex--c-c { // column and space-between
+    @include flex-default(
+        $direction: column,
+        $justify: center
+    );
+}
