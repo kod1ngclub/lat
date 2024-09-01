@@ -1,0 +1,25 @@
+@import "../config.scss";
+
+.text-center {
+    text-align: center;
+}
+
+.text-fs-1 {
+    font-size: $size * 2,5;
+}
+
+.text-fs-2 {
+    font-size: $size * 2;
+}
+
+.text-fs-3 {
+    font-size: $size * 1.7;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-italic {
+    font-style: italic;
+}

@@ -1,12 +1,14 @@
+@import "../config.scss";
+
 .typo1 {
-    font-size: 2.5rem;
+    font-size: $size * 2.5;
     font-weight: bold;
 }
 
 .typo2 {
-    font-size: 2rem;
+    font-size: $size * 2;
 }
 
 .typo3 {
-    font-size: 1.7rem;
+    font-size: $size * 1.7;
 }
