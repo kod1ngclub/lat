@@ -1,0 +1,22 @@
+@import "utils/flex.scss";
+@import "utils/grid.scss";
+@import "utils/margin.scss";
+@import "utils/padding.scss";
+
+@import "components/typo.scss";
+@import "components/jumbotron.scss";
+
+@import "reset.scss";
+@import "config.scss";
+
+body {
+    font-family: $font;
+    
+}
+
+/*
+ * link component
+ * nav component 
+ * card component
+ * vcard component
+*/
