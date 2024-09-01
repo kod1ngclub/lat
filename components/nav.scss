@@ -1,0 +1,14 @@
+@import "../config.scss";
+
+.nav {
+    // width
+    width: 80dvw;
+    padding-left: 10dvw;
+    padding-right: 10dvw;
+
+    // height by padding
+    padding-top: $size;
+    padding-bottom: $size;
+
+    background-color: $color-shadow;
+}
