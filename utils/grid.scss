@@ -1,0 +1,19 @@
+@import "../config.scss";
+
+@mixin grid-default($div) {
+    display: grid;
+    grid-template-columns: repeat($div, 1fr);
+    place-items: center;
+    justify-content: space-between;
+    gap: $spacing;
+}
+
+.grid {
+    @include grid-default($div: 4);
+}
+
+@media screen and (max-width: 1000px) {
+    .grid {
+        @include grid-default($div: 1);
+    }
+}
