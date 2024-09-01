@@ -1,0 +1,35 @@
+@import "../config.scss";
+
+.m {
+    margin: $spacing;
+}
+
+.m-t {
+    margin-top: $spacing;
+}
+
+.m-b {
+    margin-bottom: $spacing;
+}
+
+.m-l {
+    margin-left: $spacing;
+}
+
+.m-r {
+    margin-right: $spacing;
+}
+
+.m-y {
+    margin-top: $spacing;
+    margin-bottom: $spacing;
+}
+
+.m-x {
+    margin-left: $spacing;
+    margin-right: $spacing;
+}
+
+.m-auto {
+    margin: auto;
+}

@@ -1,0 +1,31 @@
+@import "../config.scss";
+
+.p {
+    padding: $spacing;
+}
+
+.p-t {
+    padding-top: $spacing;
+}
+
+.p-b {
+    padding-bottom: $spacing;
+}
+
+.p-l {
+    padding-left: $spacing;
+}
+
+.p-r {
+    padding-right: $spacing;
+}
+
+.p-y {
+    padding-top: $spacing;
+    padding-bottom: $spacing;
+}
+
+.p-x {
+    padding-left: $spacing;
+    padding-right: $spacing;
+}
