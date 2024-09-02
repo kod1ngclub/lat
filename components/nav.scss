@@ -12,3 +12,12 @@
 
     background-color: $color-shadow;
 }
+
+@media screen and (max-width: 1000px) {
+    .nav {
+        // width
+        width: 94dvw;
+        padding-left: 3dvw;
+        padding-right: 3dvw;
+    }
+}
