@@ -1,0 +1,12 @@
+@import "../config.scss";
+
+.resbody {
+    width: 65%;
+    margin: auto;
+}
+
+@media screen and (max-width: $mobile) {
+    .resbody {
+        width: 95%;
+    }
+}
