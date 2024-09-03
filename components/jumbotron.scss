@@ -1,8 +1,15 @@
+@import "../shared/common.scss";
+@import "../shared/color.scss";
 @import "../config.scss";
 
 .jumbotron {
+    @include common();
+
     width: 100dvw;
     height: 80dvh;
 
-    background-color: $color-shadow;
+    @include colorset(
+        $foreground: black,
+        $background: $color-shadow
+    );
 }
