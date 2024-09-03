@@ -1,0 +1,9 @@
+@mixin colordefault() {
+    color: black;
+    background-color: white;
+}
+
+@mixin colorset($foreground, $background) {
+    color: $foreground;
+    background-color: $background;
+}
