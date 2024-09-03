@@ -1,0 +1,7 @@
+@import "../shared/common.scss";
+
+.text {
+    @include common();
+    
+    line-height: normal;
+}
