@@ -1,6 +1,15 @@
+@import "../shared/common.scss";
+@import "../shared/color.scss";
 @import "../config.scss";
 
 .nav {
+    @include common();
+    
+    @include colorset(
+        $foreground: black,
+        $background: $color-shadow
+    );
+
     // width
     width: 80dvw;
     padding-left: 10dvw;
@@ -10,7 +19,32 @@
     padding-top: $size;
     padding-bottom: $size;
 
-    background-color: $color-shadow;
+
+    // flex
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: $spacing;
+}
+
+.nav__icon {
+    @include common();
+
+    user-select: none;
+    font-weight: bold;
+}
+
+.nav__item {
+    @include common();
+    
+    @include colorset(
+        $foreground: black,
+        $background: $color-shadow
+    );
+    
+    text-decoration: none;
+    &:hover { text-decoration: underline; }
 }
 
 @media screen and (max-width: $mobile) {
