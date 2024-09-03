@@ -1,5 +1,13 @@
+@import "../shared/common.scss";
+@import "../shared/color.scss";
+
 .link {
-    color: black;
+    @include common();
+    @include colorset(
+        $foreground: black,
+        $background: inherit
+    );
+    
     text-decoration: none;
 
     &:hover {
