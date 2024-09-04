@@ -1,19 +1,11 @@
-@import "../config.scss";
-
-@mixin grid-default($div) {
-    display: grid;
-    grid-template-columns: repeat($div, 1fr);
-    place-items: center;
-    justify-content: space-between;
-    gap: $spacing;
-}
+@import "../shared/grid.scss";
 
 .grid {
-    @include grid-default($div: 4);
+    @include gridset($div: 4);
 }
 
 @media screen and (max-width: $mobile) {
     .grid {
-        @include grid-default($div: 1);
+        @include gridset($div: 1);
     }
 }

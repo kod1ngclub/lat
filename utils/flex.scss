@@ -1,58 +1,50 @@
-@import "../config.scss";
-
-@mixin flex-default($direction, $justify) {
-    display: flex;
-    flex-direction: $direction;
-    justify-content: $justify;
-    align-items: center;
-    gap: $spacing;
-}
+@import "../shared/flex.scss";
 
 
 .flex {
-    @include flex-default(
+    @include flexset(
         $direction: row,
         $justify: space-between
     );
 }
 
 .flex--r-st { // row and start
-    @include flex-default(
+    @include flexset(
         $direction: row,
         $justify: start
     );
 }
 
 .flex--r-sb { // row and space-between
-    @include flex-default(
+    @include flexset(
         $direction: row,
         $justify: space-between
     );
 }
 
 .flex--r-c { // row and space-between
-    @include flex-default(
+    @include flexset(
         $direction: row,
         $justify: center
     );
 }
 
 .flex--c-st { // column and start
-    @include flex-default(
+    @include flexset(
         $direction: column,
         $justify: start
     );
 }
 
 .flex--c-sb { // column and space-between
-    @include flex-default(
+    @include flexset(
         $direction: column,
         $justify: space-between
     );
 }
 
 .flex--c-c { // column and space-between
-    @include flex-default(
+    @include flexset(
         $direction: column,
         $justify: center
     );

@@ -1,0 +1,9 @@
+@import "../config.scss";
+
+@mixin gridset($div) {
+    display: grid;
+    grid-template-columns: repeat($div, 1fr);
+    place-items: center;
+    justify-content: space-between;
+    gap: $spacing;
+}

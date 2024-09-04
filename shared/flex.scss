@@ -1,0 +1,9 @@
+@import "../config.scss";
+
+@mixin flexset($direction, $justify) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: center;
+    gap: $spacing;
+}
