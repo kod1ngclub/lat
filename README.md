@@ -10,6 +10,8 @@
 
 ## Getting Started
 
+### Compile from the code
+
 ```bash
 # install package
 npm install -g sass
@@ -24,9 +26,15 @@ sass --style=compressed index.scss build.min.css
 echo "⛏️ build.min.css"
 ```
 
+### Use CI/CD link
+
+[Use This][cicd]
+
 > I think this repo is too short to make some docs.
 > Just read the whole code, and you will know it
 
 ## License
 
 lat is under **GPL v3.0**
+
+[cicd]: https://lat-css.vercel.app/lat.min.css
