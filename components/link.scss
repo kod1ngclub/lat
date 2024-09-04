@@ -17,3 +17,14 @@
         text-decoration: underline;
     }
 }
+
+.link--deco {
+    @include common();
+    @include colorset(
+        $foreground: black,
+        $background: inherit
+    );
+
+    // yet must import common mixin if it is edited
+    font-size: inherit;
+}
