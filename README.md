@@ -28,7 +28,7 @@ echo "⛏️ build.min.css"
 
 ### Use CI/CD link
 
-[Use This][cicd]
+- [Use vercel link][vercel]
 
 > I think this repo is too short to make some docs.
 > Just read the whole code, and you will know it
@@ -37,4 +37,4 @@ echo "⛏️ build.min.css"
 
 lat is under **GPL v3.0**
 
-[cicd]: https://lat-css.vercel.app/lat.min.css
+[vercel]: https://lat-css.vercel.app/lat.min.css
