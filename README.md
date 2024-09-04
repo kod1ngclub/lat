@@ -24,10 +24,8 @@ sass --style=compressed index.scss build.min.css
 echo "⛏️ build.min.css"
 ```
 
-## How to use
-
-We don't make additional docs.
-Instead, you can learn how to use by `examples`
+> I think this repo is too short to make some docs.
+> Just read the whole code, and you will know it
 
 ## License
 
