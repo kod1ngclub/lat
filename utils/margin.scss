@@ -1,34 +1,37 @@
 @import "../config.scss";
 
-.m {
-    margin: $spacing;
+@for $i from 1 through 3 {
+    .m-#{$i} {
+        margin: $spacing * $i;
+    }
+    
+    .m-#{$i}t {
+        margin-top: $spacing * $i;
+    }
+    
+    .m-#{$i}b {
+        margin-bottom: $spacing * $i;
+    }
+    
+    .m-#{$i}l {
+        margin-left: $spacing * $i;
+    }
+    
+    .m-#{$i}r {
+        margin-right: $spacing * $i;
+    }
+    
+    .m-#{$i}y {
+        margin-top: $spacing * $i;
+        margin-bottom: $spacing * $i;
+    }
+    
+    .m-#{$i}x {
+        margin-left: $spacing * $i;
+        margin-right: $spacing * $i;
+    }
 }
 
-.m-t {
-    margin-top: $spacing;
-}
-
-.m-b {
-    margin-bottom: $spacing;
-}
-
-.m-l {
-    margin-left: $spacing;
-}
-
-.m-r {
-    margin-right: $spacing;
-}
-
-.m-y {
-    margin-top: $spacing;
-    margin-bottom: $spacing;
-}
-
-.m-x {
-    margin-left: $spacing;
-    margin-right: $spacing;
-}
 
 .m-auto {
     margin: auto;
