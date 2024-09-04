@@ -7,6 +7,9 @@
         $foreground: black,
         $background: inherit
     );
+
+    // yet must import common mixin if it is edited
+    font-size: inherit;
     
     text-decoration: none;
 
