@@ -5,28 +5,28 @@
         padding: $spacing * $i;
     }
     
-    .p-#{$i}t {
+    .pt-#{$i} {
         padding-top: $spacing * $i;
     }
     
-    .p-#{$i}b {
+    .pb-#{$i} {
         padding-bottom: $spacing * $i;
     }
     
-    .p-#{$i}l {
+    .pl-#{$i} {
         padding-left: $spacing * $i;
     }
     
-    .p-#{$i}r {
+    .pr-#{$i} {
         padding-right: $spacing * $i;
     }
     
-    .p-#{$i}y {
+    .py-#{$i} {
         padding-top: $spacing * $i;
         padding-bottom: $spacing * $i;
     }
     
-    .p-#{$i}x {
+    .px-#{$i} {
         padding-left: $spacing * $i;
         padding-right: $spacing * $i;
     }

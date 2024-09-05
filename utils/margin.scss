@@ -5,28 +5,28 @@
         margin: $spacing * $i;
     }
     
-    .m-#{$i}t {
+    .mt-#{$i} {
         margin-top: $spacing * $i;
     }
     
-    .m-#{$i}b {
+    .mb-#{$i} {
         margin-bottom: $spacing * $i;
     }
     
-    .m-#{$i}l {
+    .ml-#{$i} {
         margin-left: $spacing * $i;
     }
     
-    .m-#{$i}r {
+    .mr-#{$i} {
         margin-right: $spacing * $i;
     }
     
-    .m-#{$i}y {
+    .my-#{$i} {
         margin-top: $spacing * $i;
         margin-bottom: $spacing * $i;
     }
     
-    .m-#{$i}x {
+    .mx-#{$i} {
         margin-left: $spacing * $i;
         margin-right: $spacing * $i;
     }
