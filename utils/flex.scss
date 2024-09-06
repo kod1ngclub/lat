@@ -11,7 +11,7 @@
 .flex--r-st { // row and start
     @include flexset(
         $direction: row,
-        $justify: start
+        $justify: flex-start
     );
 }
 
@@ -32,7 +32,7 @@
 .flex--c-st { // column and start
     @include flexset(
         $direction: column,
-        $justify: start
+        $justify: flex-start
     );
 }
 
