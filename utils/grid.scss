@@ -1,11 +1,21 @@
 @import "../shared/grid.scss";
 
-.grid {
-    @include gridset($div: 4);
+@for $g from 1 through 3 {
+    .grid--g#{$g} {
+        @include gridset(
+            $div: 4,
+            $gap-level: $g
+        );
+    }
 }
 
 @media screen and (max-width: $mobile) {
-    .grid {
-        @include gridset($div: 1);
+    @for $g from 1 through 3 {
+        .grid--g#{$g} {
+            @include gridset(
+                $div: 1,
+                $gap-level: $g
+            );
+        }
     }
 }
