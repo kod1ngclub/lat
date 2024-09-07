@@ -23,7 +23,8 @@
     // flex
     @include flexset(
         $direction: row,
-        $justify: space-between
+        $justify: space-between,
+        $gap-level: 1
     );
 }
 
@@ -56,7 +57,8 @@
         // flex but aligned in vertical
         @include flexset(
             $direction: column,
-            $justify: space-between
+            $justify: space-between,
+            $gap-level: 1
         );
     }
 }
